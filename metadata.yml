@@ -1,0 +1,12 @@
+---
+:id: 104033844
+:submitters:
+- :name: Nadine Han
+  :email: nhan@college.harvard.edu
+:created_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2021-12-08 04:00:56.994185000 Z
+  zone: !ruby/object:ActiveSupport::TimeZone
+    name: America/Los_Angeles
+  time: 2021-12-07 20:00:56.994185000 Z
+:status: processed
+:score: 21.0

@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Delete 2
+{% endblock %}
+
+{% block main %}
+
+    <div class = "availCard">
+    <form action="/delete2" method="post">
+        <div class = "heading"><h2>Created Events</h2></div>
+
+        {% set vars = {'n': 0} %}
+        {% for event in created_events %}
+            <div class="checkbox">
+                <label><input type="checkbox" name="event_{{vars.n}}" value="{{ event['event_id'] }}"> {{ event['event_name'] }}</label>
+            </div>
+            {% if vars.update({'n': vars.n + 1}) %} {% endif %}
+        {% endfor %}
+        <p></p>
+        <div class = "heading"><h2>Joined Events</h2></div>
+
+        {% for event in joined_events %}
+            <div class="checkbox">
+                <label><input type="checkbox" name="event_{{vars.n}}" value="{{ event['event_id'] }}"> {{ event['event_name'] }}</label>
+            </div>
+            {% if vars.update({'n': vars.n + 1}) %} {% endif %}
+        {% endfor %}
+
+        <p></p>
+        <button type="submit"">Delete</button>
+    </form>
+</div>
+    
+{% endblock %}
