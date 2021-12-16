@@ -1,7 +1,3 @@
-PROMPT: Documentation for your project in the form of a Markdown file called README.md. This documentation is to be a user’s manual for your project. Though the structure of your documentation is entirely up to you, it should be incredibly clear to the staff how and where, if applicable, to compile, configure, and use your project. Your documentation should be at least several paragraphs in length. It should not be necessary for us to contact you with questions regarding your project after its submission. Hold our hand with this documentation; be sure to answer in your documentation any questions that you think we might have while testing your work.
-
-# TODO: the hashtag formatting thingy for md files, adding more to Additional Notes and proofreading what is already there
-
 # WHEN2EAT: USER'S MANUAL
 Made by: Nadine Han and Julianna Zhao
 Class: CS50 Fall 2021
