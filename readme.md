@@ -1,6 +1,5 @@
 # WHEN2EAT: USER'S MANUAL
 Made by: Nadine Han and Julianna Zhao
-
 Class: CS50 Fall 2021
  
 Table of Contents
